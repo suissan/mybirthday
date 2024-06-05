@@ -1,6 +1,14 @@
 "use strict";
 
-
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+    loader.classList.add("loaded");
+    const content = document.getElementById("main");
+    content.style.visibility = "visible";
+    setTimeout(() => {
+        myConfetti();
+    }, 300);
+})
 
 const button = document.getElementById("button");
 const effectiveFan = new Audio("./media/21歳.wav");
