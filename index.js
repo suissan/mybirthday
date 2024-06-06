@@ -29,3 +29,4 @@ const myConfetti = () => {
         colors: ["#00ffff", "#00bfff", "#0080ff", "#0040ff", "#00ffbf"]
     })
 };
+console.log("test2")
