@@ -5,6 +5,7 @@ window.addEventListener("load", () => {
     loader.classList.add("loaded");
     const content = document.getElementById("main");
     content.style.visibility = "visible";
+    console.log("test");
     setTimeout(() => {
         myConfetti();
     }, 300);
