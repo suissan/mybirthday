@@ -61,6 +61,6 @@ submit.addEventListener("click", (e) => {
 
 const hiddenButton = document.getElementById("hiddenButton");
 hiddenButton.addEventListener("click", (e) => {
-    congratulations.play();
-    congratulations.currentTime = 0;
+    effectiveFan.play();
+    effectiveFan.currentTime = 0;
 });
