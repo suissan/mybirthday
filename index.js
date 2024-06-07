@@ -53,6 +53,8 @@ submit.addEventListener("click", (e) => {
             special.style.display = "block";
             fanfare.volume = 0.3
             fanfare.play();
+            fanfare.currentTime = 0;
+
         }, 1800);
     }, 1000);
 });
