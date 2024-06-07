@@ -4,7 +4,7 @@ const button = document.getElementById("button");
 const input = document.getElementById("input");
 const submit = document.getElementById("submit");
 const effectiveFan = new Audio("./media/21歳.wav");
-const congratulations = new Audio("./media/おめでとう.mp3");
+const congratulations = new Audio("./media/congratulations.mp3");
 const fanfare = new Audio("./media/F-ZEROGXfanfare.mp3");
 
 button.addEventListener("click", (e) => {
